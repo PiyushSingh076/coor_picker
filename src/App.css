@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+}
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0px;
+  min-height: 100vh;
+  color: #f0f0f0;
+  padding: 40px;
+}
+.color-box{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border: 2px solid #000 ;
+  border-radius: 20px;
+}
+
+.App h1{
+  margin-top: 20px;
+}
+
+.color-palette{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.custom-color-picker {
+  margin: 10px;
+ 
+}
+
+.custom-color-picker input{
+  padding: 8px;
+  border: black;
+  border-radius: 5px;
+}
+.custom-color-picker :hover{
+  background: #5dc566;
+}
+
